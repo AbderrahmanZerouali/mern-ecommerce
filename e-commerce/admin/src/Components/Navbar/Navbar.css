@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5vw ;
+    box-shadow: 0 0.1vw 0.3vw -0.2vw #000;
+    margin-bottom: 0.1vw;
+    background: white;
+}
+
+.nav-profile{
+    width: 7.5vw;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
+}
+.nav-logo p{
+    color :black;
+    font-size: 3.5vw;
+    font-weight: 600;
+    text-decoration:none;
+}
+@media(max-width:800px){
+    .navbar{
+        padding : 1.5vw 3vw;
+    }
+    .nav-logo{
+        width: 15vw;
+    }
+    .nav-profile{
+        width: 6vw
+    }
+}
